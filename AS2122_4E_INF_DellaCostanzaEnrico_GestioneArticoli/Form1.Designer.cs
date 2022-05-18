@@ -106,6 +106,7 @@
             this.btnAggiungi.TabIndex = 7;
             this.btnAggiungi.Text = "Aggiungi/Modifica Articolo";
             this.btnAggiungi.UseVisualStyleBackColor = true;
+            this.btnAggiungi.Click += new System.EventHandler(this.btnAggiungi_Click);
             // 
             // txtCodice
             // 
