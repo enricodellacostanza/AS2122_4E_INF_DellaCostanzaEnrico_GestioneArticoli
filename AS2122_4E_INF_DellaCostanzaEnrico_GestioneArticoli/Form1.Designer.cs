@@ -132,6 +132,8 @@
             // cmbVisualizza
             // 
             this.cmbVisualizza.FormattingEnabled = true;
+            this.cmbVisualizza.Items.AddRange(new object[] {
+            "Visualizza Articoli"});
             this.cmbVisualizza.Location = new System.Drawing.Point(428, 44);
             this.cmbVisualizza.Name = "cmbVisualizza";
             this.cmbVisualizza.Size = new System.Drawing.Size(121, 23);
@@ -145,6 +147,7 @@
             this.btnVisualizza.TabIndex = 12;
             this.btnVisualizza.Text = "...";
             this.btnVisualizza.UseVisualStyleBackColor = true;
+            this.btnVisualizza.Click += new System.EventHandler(this.btnVisualizza_Click);
             // 
             // groupBox1
             // 

@@ -13,7 +13,7 @@ namespace AS2122_4E_INF_DellaCostanzaEnrico_GestioneArticoli
         string descrizione;
         double prezzo;
 
-        string Codice { get { return codice; } };
+        string Codice { get { return codice; } }
         string Unitadimisura { get { return unitadimisura; } }
         string Descrizione { get { return descrizione; } }
         double Prezzo { get { return prezzo; } }

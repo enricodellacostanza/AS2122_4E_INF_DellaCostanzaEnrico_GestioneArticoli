@@ -25,5 +25,16 @@ namespace AS2122_4E_INF_DellaCostanzaEnrico_GestioneArticoli
         
         
         }
+
+        private void btnVisualizza_Click(object sender, EventArgs e)
+        {
+            switch (cmbVisualizza.Text)
+            {
+                case "Visualizza articoli":
+                    lstVisualizza.Items.Clear();    
+                    foreach(KeyValuePair<string Articoli> Articolo)
+
+            }
+        }
     }
 }
